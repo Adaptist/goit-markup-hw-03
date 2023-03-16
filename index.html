@@ -13,17 +13,17 @@
 </head>
 <body>
     <header class="header">
-        <div class="container">
+        <div class="container header-wrapper">
             <nav>
                 <a class="current link" href="./index.html">Web<span>Studio</span></a>
-                <ul class="list">
-                    <li><a class="nav-link link active" href="./index.html">Studio</a></li>
-                    <li><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="nav-link link" href="#">Contacts</a></li>
+                <ul class="header-list list">
+                    <li class="header-menu__item"><a class="nav-link link active" href="./index.html">Studio</a></li>
+                    <li class="header-menu__item"><a class="nav-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="header-menu__item"><a class="nav-link link" href="#">Contacts</a></li>
                 </ul>
             </nav>
             <address>
-                <ul class="list">
+                <ul class="adress-list list">
                     <li><a class="address-link mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
                 </ul>
@@ -41,8 +41,8 @@
     <!--Features-->
     <section class="features">
         <div class="container">
-            <h2 class="title">Features</h2>
-            <ul class="list">
+            <h2 class="hidden title">Features</h2>
+            <ul class="features-list list">
                 <li>
                     <h3 class="features-subtitle">Strategy</h3>
                     <p class="features-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
@@ -66,7 +66,7 @@
     <section class="works">
         <div class="container">
             <h2 class="works-title">What are we doing</h2>
-            <ul class="list">
+            <ul class="works-list list">
                 <li class="works-item"><img
                     src="./images/image1.jpg"
                     alt="PC with an open site"
@@ -92,34 +92,38 @@
     <section class="team">
         <div class="container">
             <h2 class="team-title title">Our Team</h2>
-            <ul class="list">
-                <li class="team-item">
-                    <img class="team-list__photo" src="./images/photo1.jpg"
+            <ul class="team-list">
+                <li class="team-list__item">
+                    <img class="team-list__photo" 
+                    src="./images/photo1.jpg"
                     alt="photo Mark Guerrero"
                     width="264" height="260">
                     <h3 class="team-subtitle">Mark Guerrero</h3>
-                    <p class="list-item">Product Designer</p>
+                    <p class="list-item__pos">Product Designer</p>
                 </li>
-                <li class="team-item">
-                    <img class="team-list__photo" src="./images/photo2.jpg"
+                <li class="team-list__item">
+                    <img class="team-list__photo" 
+                    src="./images/photo2.jpg"
                     alt="photo Tom Ford"
                     width="264" height="260">
                     <h3 class="team-subtitle">Tom Ford</h3>
-                    <p class="list-item">Frontend Developer</p>
+                    <p class="list-item__pos">Frontend Developer</p>
                 </li>
-                <li class="team-item">
-                    <img class="team-list__photo" src="./images/photo3.jpg"
+                <li class="team-list__item">
+                    <img class="team-list__photo" 
+                    src="./images/photo3.jpg"
                     alt="photo Camila Garcia"
                     width="264" height="260">
                     <h3 class="team-subtitle">Camila Garcia</h3>
-                    <p class="list-item">Marketing</p>
+                    <p class="list-item__pos">Marketing</p>
                 </li>
-                <li class="team-item">
-                    <img class="team-list__photo" src="./images/photo4.jpg"
+                <li class="team-list__item">
+                    <img class="team-list__photo" 
+                    src="./images/photo4.jpg"
                     alt="photo Daniel Wilson"
                     width="264" height="260">
                     <h3 class="team-subtitle">Daniel Wilson</h3>
-                    <p class="list-item">UI Designer</p>
+                    <p class="list-item__pos">UI Designer</p>
                 </li>
             </ul>
         </div>
