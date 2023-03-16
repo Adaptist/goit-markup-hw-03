@@ -48,12 +48,17 @@ body {
     color: var(--color-slate);
 }
 
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
-
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
 
 .title {
     font-size: 36px;
@@ -111,6 +116,7 @@ body {
 
 .adress-list {
     display: flex;
+    gap: 40px;
 }
 
 .address-link {
@@ -120,7 +126,7 @@ body {
     line-height: calc(24/16);    
 }
 
-.address-link.mail {
+.adress-list__item {
     margin-right: 40px;
 }
 
@@ -141,7 +147,7 @@ body {
 /* Hero */
 
 .hero {
-    padding: 188px 316px;
+    padding: 188px 0;
     background: var(--color-grey);
 }
 
@@ -183,10 +189,6 @@ body {
 
 /* Features */
 
-.features {
-    padding: 120px;
-}
-
 .hidden {
     position: absolute;
     width: 1px;
@@ -224,7 +226,7 @@ body {
 /* What are we doing */
 
 .works {
-    padding-bottom: 120px;
+    padding-top: 0;
 }
 
 .works-title {
@@ -245,7 +247,6 @@ body {
 /* Our Team */
 
 .team {
-    padding: 120px 0;
     background-color: var(--color-cloud);
 }
 
@@ -268,9 +269,8 @@ body {
     text-align: center;
 }
 
-.team-list__photo {
-    margin-bottom: 32px;
-
+.team-meta {
+    padding: 32px 16px;
 }
 
 .team-subtitle {
@@ -349,10 +349,6 @@ body {
     color: var(--color-white);
 }
 
-.list-pic {
-
-}
-
 .cards-list {
     display: flex;
     flex-wrap: wrap;
@@ -373,9 +369,9 @@ body {
     font-size: 20px;
     line-height: calc(24/20);
     margin-bottom: 8px;
-    margin-left: 12px;
+    margin-left: 16px;
 }
 
 .cards-desc {
-    margin-left: 12px;
+    margin-left: 16px;
 }
